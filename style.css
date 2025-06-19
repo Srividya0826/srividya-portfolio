@@ -27,3 +27,129 @@ nav a {
 section {
     padding: 4rem 2rem;
 }
+
+section#experience {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#experience h2 {
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+section#experience .job h3 {
+    margin: 0;
+    font-weight: 600;
+    color: #007acc;
+}
+
+section#experience .job p {
+    font-style: italic;
+    margin: 0.2rem 0 1rem 0;
+}
+
+section#experience .job ul {
+    list-style: disc inside;
+    color: #444;
+}
+
+section#projects {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#projects h2 {
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+section#projects .project {
+    margin-bottom: 1.5rem;
+}
+
+section#projects .project h3 {
+    color: #007acc;
+    margin-bottom: 0.3rem;
+}
+
+section#projects .project p {
+    margin: 0 0 0.5rem 0;
+}
+
+section#projects a {
+    color: #005f99;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section#projects a:hover {
+    text-decoration: underline;
+}
+
+section#skills {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#skills h2 {
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #007acc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+section#contact {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#contact h2 {
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+section#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin-bottom: 0.5rem;
+}
+
+section#contact a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
