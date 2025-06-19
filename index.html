@@ -5,96 +5,182 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Srividya Manikonda | Developer Portfolio</title>
-
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Srividya</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle"><i class="fas fa-bars"></i></div>
         </nav>
     </header>
 
-    <section id="home" class="hero-section">
-        <div class="avatar">SM</div>
-        <h1>Hi, I'm Srividya Manikonda</h1>
-        <p class="role">ERP & Data Analytics Enthusiast | Oracle Fusion | APEX | SQL | Cloud</p>
-    </section>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <h1 class="home__title">Hi, I'm <span>Srividya Manikonda</span></h1>
+                    <h3 class="home__subtitle">ERP & Data Analytics Enthusiast</h3>
+                    <p class="home__description">Oracle Fusion | APEX | SQL | Cloud</p>
+                </div>
+                <div class="home__img">
+                    <div class="avatar">SM</div>
+                </div>
+            </div>
+        </section>
 
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">
-                <i class="fab fa-python"></i>
-                <span>Python</span>
-            </div>
-            <div class="skill">
-                <i class="fas fa-database"></i>
-                <span>SQL / PL/SQL</span>
-            </div>
-            <div class="skill">
-                <i class="fas fa-cloud"></i>
-                <span>Oracle Cloud</span>
-            </div>
-            <div class="skill">
-                <i class="fas fa-code"></i>
-                <span>Oracle APEX</span>
-            </div>
-            <div class="skill">
-                <i class="fas fa-chart-bar"></i>
-                <span>Power BI / Tableau</span>
-            </div>
-            <div class="skill">
-                <i class="fas fa-cogs"></i>
-                <span>REST APIs</span>
-            </div>
-        </div>
-    </section>
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+            <p class="about__description">
+                I’m a recent MIS graduate passionate about ERP systems, cloud analytics, and solving business data
+                problems using technology.
+            </p>
+        </section>
 
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Smart Procurement Insights Portal</h3>
-                <p>Web app using Oracle APEX and REST APIs to manage suppliers, purchase orders, and invoices with data
-                    visualization.</p>
-                <a href="https://github.com/Srividya0826/Smart-Procurement-Insights" target="_blank"
-                    rel="noopener noreferrer">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Walmart USA Advanced Software Engineering Virtual Experience</h3>
-                <p>Completed virtual program building full-stack applications using React and Node.js.</p>
-                <a href="https://www.forage.co" target="_blank" rel="noopener noreferrer">Program Link</a>
-            </div>
-        </div>
-    </section>
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Experience</h2>
+            <span class="section__subtitle">My work history</span>
 
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:srividya.email@example.com">srividya.email@example.com</a></p>
-        <p>
-            LinkedIn:
-            <a href="https://linkedin.com/in/srividya0826" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/srividya0826
-            </a>
-        </p>
-        <p>
-            GitHub:
-            <a href="https://github.com/Srividya0826" target="_blank" rel="noopener noreferrer">
-                github.com/Srividya0826
-            </a>
-        </p>
-    </section>
+            <div class="experience__container container grid">
+                <div class="experience__data">
+                    <h3 class="experience__title">Associate Consultant</h3>
+                    <span class="experience__company">Inspirage Software Consulting Pvt Ltd (Accenture) | India</span>
+                    <p class="experience__duration">Jun 2021 – Jun 2023</p>
+                    <ul>
+                        <li>Designed responsive web apps using Oracle Visual Builder Cloud Service (VBCS) for Oracle
+                            Fusion Financials modules (GL, AP, AR).</li>
+                        <li>Developed & consumed REST APIs using Oracle SQL Developer and Oracle Database for real-time
+                            data sync improving processing speed by 25%.</li>
+                        <li>Built dashboards & reports in Oracle APEX with advanced filtering and inline editing,
+                            reducing manual reporting workload by 30%.</li>
+                        <li>Implemented Role-Based Access Control (RBAC) for secure financial data access.</li>
+                        <li>Worked cross-functionally in Agile teams to manage development lifecycle and ERP data
+                            migration support.</li>
+                    </ul>
+                </div>
+                <div class="experience__data">
+                    <h3 class="experience__title">Intern</h3>
+                    <span class="experience__company">Inspirage Software Consulting Pvt Ltd (Accenture) | India</span>
+                    <p class="experience__duration">Jan 2021 – May 2021</p>
+                    <ul>
+                        <li>Built basic Oracle VBCS apps connecting to mock data using Postman and SQL Developer.</li>
+                        <li>Contributed to UI components with React and JavaScript, integrated Python backend, and
+                            implemented JWT & OAuth 2.0 security.</li>
+                        <li>Improved CI/CD automation with Jenkins and GitHub Actions, reducing delivery time by 30%.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <i class="fab fa-python skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">Python</h3>
+                        <span class="skills__level">Basic</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="fas fa-database skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">SQL / PL/SQL</h3>
+                        <span class="skills__level">Advanced</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="fas fa-cloud skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">Oracle Cloud</h3>
+                        <span class="skills__level">Intermediate</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="fas fa-code skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">Oracle APEX / VBCS</h3>
+                        <span class="skills__level">Intermediate</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="fas fa-chart-bar skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">Power BI / Tableau</h3>
+                        <span class="skills__level">Intermediate</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <i class="fas fa-cogs skills__icon"></i>
+                    <div>
+                        <h3 class="skills__name">REST APIs</h3>
+                        <span class="skills__level">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My recent works</span>
+
+            <div class="projects__container container grid">
+                <div class="projects__data">
+                    <h3 class="projects__title">Smart Procurement Insights Portal</h3>
+                    <p>Web app using Oracle APEX and REST APIs to manage suppliers, purchase orders, and invoices with
+                        data visualization.</p>
+                    <a href="https://github.com/Srividya0826/Smart-Procurement-Insights" class="button" target="_blank"
+                        rel="noopener noreferrer">View on GitHub</a>
+                </div>
+                <div class="projects__data">
+                    <h3 class="projects__title">Walmart USA Advanced Software Engineering Virtual Experience</h3>
+                    <p>Completed virtual program building full-stack applications using React and Node.js.</p>
+                    <a href="https://www.forage.co" class="button" target="_blank" rel="noopener noreferrer">Program
+                        Link</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:srividyamanikonda5@gmail.com">srividyamanikonda5@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+15109988213">+1 510-998-8213</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/srividyamanikonda" target="_blank"
+                            rel="noopener noreferrer">linkedin.com/in/srividyamanikonda</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Srividya0826" target="_blank"
+                            rel="noopener noreferrer">github.com/Srividya0826</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
