@@ -1,4 +1,3 @@
-/* General styles */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -16,7 +15,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navbar */
 header {
     position: sticky;
     top: 0;
@@ -49,7 +47,6 @@ header {
     border-bottom-color: #4f90ff;
 }
 
-/* Hero Section */
 .hero-section {
     text-align: center;
     padding: 6rem 2rem 4rem;
@@ -84,7 +81,6 @@ header {
     color: #ccc;
 }
 
-/* Sections */
 .section {
     max-width: 900px;
     margin: 3rem auto;
@@ -99,7 +95,6 @@ header {
     padding-bottom: 0.4rem;
 }
 
-/* Skills Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -134,7 +129,6 @@ header {
     color: #ddd;
 }
 
-/* Projects Grid */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -166,7 +160,6 @@ header {
     font-size: 0.95rem;
 }
 
-/* Contact Section */
 #contact p {
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
@@ -180,7 +173,6 @@ header {
     color: #82aaff;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .nav-links {
         flex-direction: column;
