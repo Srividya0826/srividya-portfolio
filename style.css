@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #121212;
-    color: #eee;
+    background-color: #f9f9f9;
+    color: #222;
     scroll-behavior: smooth;
 }
 
@@ -18,8 +18,8 @@ a:hover {
 header {
     position: sticky;
     top: 0;
-    background-color: #1e1e1e;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
 
@@ -35,7 +35,7 @@ header {
 .nav-links a {
     font-weight: 600;
     font-size: 1rem;
-    color: #aaa;
+    color: #666;
     padding-bottom: 2px;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
@@ -65,20 +65,20 @@ header {
     align-items: center;
     justify-content: center;
     user-select: none;
-    box-shadow: 0 4px 10px rgba(79, 144, 255, 0.6);
+    box-shadow: 0 4px 10px rgba(79, 144, 255, 0.3);
 }
 
 .hero-section h1 {
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 0.3rem;
-    color: #4f90ff;
+    color: #222;
 }
 
 .hero-section .role {
     font-weight: 500;
     font-size: 1.1rem;
-    color: #ccc;
+    color: #555;
 }
 
 .section {
@@ -93,6 +93,7 @@ header {
     margin-bottom: 1.5rem;
     border-bottom: 3px solid #4f90ff;
     padding-bottom: 0.4rem;
+    color: #222;
 }
 
 .skills-grid {
@@ -102,18 +103,18 @@ header {
 }
 
 .skill {
-    background: #1e1e1e;
+    background: #ffffff;
     border-radius: 8px;
     padding: 1rem 0;
     text-align: center;
-    box-shadow: 0 0 10px rgba(79, 144, 255, 0.3);
+    box-shadow: 0 0 10px rgba(79, 144, 255, 0.15);
     transition: transform 0.3s ease;
     cursor: default;
 }
 
 .skill:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 20px rgba(79, 144, 255, 0.6);
+    box-shadow: 0 10px 20px rgba(79, 144, 255, 0.3);
 }
 
 .skill i {
@@ -126,7 +127,7 @@ header {
 .skill span {
     font-weight: 600;
     font-size: 1rem;
-    color: #ddd;
+    color: #333;
 }
 
 .projects-grid {
@@ -136,15 +137,15 @@ header {
 }
 
 .project-card {
-    background: #1e1e1e;
+    background: #ffffff;
     border-radius: 10px;
     padding: 1.5rem;
-    box-shadow: 0 0 15px rgba(79, 144, 255, 0.2);
+    box-shadow: 0 0 15px rgba(79, 144, 255, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .project-card:hover {
-    box-shadow: 0 10px 25px rgba(79, 144, 255, 0.6);
+    box-shadow: 0 10px 25px rgba(79, 144, 255, 0.3);
     transform: translateY(-5px);
 }
 
@@ -155,7 +156,7 @@ header {
 }
 
 .project-card p {
-    color: #ccc;
+    color: #555;
     margin-bottom: 1rem;
     font-size: 0.95rem;
 }
@@ -163,6 +164,7 @@ header {
 #contact p {
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
+    color: #222;
 }
 
 #contact a {
